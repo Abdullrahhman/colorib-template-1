@@ -1,0 +1,47 @@
+/* ~ 3.05 */
+.service-pt2 {
+  background-color: rgb(245, 245, 245);
+}
+
+.service-desc {
+  font-size: 16px;
+  color: rgb(134, 143, 155);
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-top: -35px;
+}
+
+.service-list {
+  list-style: none;
+}
+
+.service-list li i {
+  border: 1px solid var(--maincolor);
+  color: var(--maincolor);
+  border-radius: 50%;
+  width: 30px;
+}
+
+.service-list li {
+  color: rgb(134, 143, 155);
+}
+
+.service-bullets {
+  list-style: none;
+  text-align: center;
+}
+
+.service-bullets li {
+  display: inline-block;
+  background-color: var(--main-grey-color);
+  margin: 5px 5px;
+  border-radius: 50%;
+}
+
+li.active-bullet {
+  border-radius: 30px;
+  background-color: var(--maincolor);
+}

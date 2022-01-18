@@ -1,0 +1,31 @@
+/*~ 3.4 */
+.offer-content {
+  overflow: hidden;
+}
+
+.offer-item {
+  border: 1px solid var(--main-grey-color);
+  padding: 30px 15px 30px 70px;
+}
+
+.offer-icon {
+  left: 15px;
+  top: 35px;
+  color: var(--maincolor);
+}
+
+.offer-item-title {
+  color: black;
+}
+
+.offer-desc {
+  columns: rgba(241, 241, 241, 0.842);
+}
+
+.offer-item:hover .ltr-hover {
+  width: 100%;
+}
+
+.offer-item:hover .offer-item-title {
+  color: var(--white-color);
+}

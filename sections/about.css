@@ -1,0 +1,62 @@
+/* ~ 3.2 
+~ 1.0 section header with a line:
+*/
+
+.line {
+  background-color: var(--maincolor);
+  height: 4px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.about {
+  text-align: center;
+}
+
+.about-content {
+  overflow: hidden;
+}
+
+.about-item {
+  padding: 40px 20px;
+  border: 1px solid #eee;
+  margin: 15px 16px;
+}
+
+.about-item i {
+  font-size: 36px;
+  color: var(--maincolor);
+}
+
+.about-item h3 {
+  font-size: 21px;
+  font-family: var(--Montserrat);
+  font-weight: 700;
+}
+
+.about-item p {
+  color: #868f9b;
+  margin: 0px 0px 10px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.about-item-center {
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.about-item:hover .ltr-hover {
+  width: 100%;
+}
+
+.about-item:hover h3 {
+  color: var(--white-color);
+}
+
+.about-item a {
+  color: blue;
+}

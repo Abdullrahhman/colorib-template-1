@@ -1,0 +1,36 @@
+/* ~ 3.7 */
+.team {
+  background-image: url(../images/background/background3.webp);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.team-item {
+  color: var(--white-color);
+}
+
+.team-content {
+  overflow: hidden;
+  padding: 120px 0;
+  margin: auto;
+}
+
+.team-item .team-top-layer {
+  padding: 10px 2px 40px 95px;
+}
+
+.team-top-layer img {
+  border-radius: 50%;
+  left: 10px;
+  top: 10px;
+}
+
+.team-item .team-top-layer span {
+  color: var(--maincolor);
+}
+
+.team-pt2-text {
+  font-size: 17px;
+  color: #868f9b;
+  letter-spacing: 0.7px;
+}

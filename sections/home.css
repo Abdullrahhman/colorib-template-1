@@ -1,0 +1,57 @@
+/*~ 3.1 */
+.home-content h1 {
+  color: var(--white-color);
+  font-size: 54px;
+  font-weight: 700;
+  font-family: var(--Montserrat);
+  margin-top: 0px;
+}
+
+.home-content {
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.home-content p {
+  margin: 0px 0px 10px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+/* ~ 1.2 button hover opacity */
+.home-content .btn {
+  background: rgb(97, 149, 255);
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  padding: 10px 35px;
+  border: 2px solid transparent;
+  border-radius: 3px;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.home-content .btn.btn2 {
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+}
+
+.home-desc {
+  color: var(--white-color);
+}
+.home {
+  background-image: url("../images/background/background1.webp");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}

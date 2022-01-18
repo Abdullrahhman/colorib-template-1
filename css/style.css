@@ -1,0 +1,194 @@
+/* 
+                                    Please Berfore you start Download colorful comments extension
+                                            or any other colorful comments extension.
+                                                            Thank you.
+*/
+/* 
+* Index:
+!(ctrl + f) to reach any section quicly.
+!                                           YOU WON'T FIND ALL THE SECTIONS HERE.
+*/
+/*
+~ 1. Common styles:
+    ~ 1.01 container, width 80%
+    ~ 1.0 section header with a line
+    ~ 1.1 section padding
+    ~ 1.2 button hover opacity
+    ~ 1.03 icon hover opacity
+    ~ 1.3 ltr hover animation
+    ~ 1.4 delay oacity hover animation
+    ~ 1.5 Top to bottom hover animation
+*/
+/*
+~ 2. General styles
+/2
+~ 3. Sections styles: (find in 'sections' folder.)
+    ~ 3.0 Navbar section (in this file.)
+    ~ 3.1 Home section
+    ~ 3.2 About section
+    ~ 3.4 Portfolio section
+    ~ 3.5 Services section
+    ~ 3.05 Services-pt2
+    ~ 3.6 Prices section
+    ~ 3.7 Team section
+    ~ 3.8 Blog Page
+    ~ 3.9 contact section
+
+*/
+
+/* 
+~ 1
+*/
+/* 
+~ 1.3: 
+*/
+
+/*! here I did group the 'top to bottom' and the 'left to right' animations in one group. */
+.ltr-hover,
+.ttp-hover {
+  top: 0;
+  left: 0;
+  background-color: #333;
+  z-index: -1;
+  transition: 0.2s ease 0s;
+}
+
+/*~ 1.5 */
+/*! here's the diffrences */
+.ltr-hover {
+  width: 0%;
+  height: 100%;
+}
+
+.ttp-hover {
+  width: 100%;
+  height: 0;
+}
+
+/* 
+~ 2. General Styeles
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --maincolor: #6195ff;
+  --main-grey-color: #e8e8e8;
+  --white-color: white;
+  --Montserrat: "Montserrat", sans-serif;
+  --varelaround: "Varela Round", sans-serif;
+}
+
+.title {
+  text-align: center;
+  font-size: 36px;
+  font-family: var(--Montserrat);
+  font-weight: 700;
+  margin-top: 0px;
+  color: rgb(16, 22, 26);
+}
+
+.service-title {
+  text-align: left;
+  font-size: 36px;
+  font-family: var(--Montserrat);
+  font-weight: 700;
+  margin-top: 0px;
+  color: rgb(16, 22, 26);
+}
+
+.service-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 150%;
+  left: 0;
+  background-color: var(--maincolor);
+  width: 40px;
+  height: 4px;
+}
+
+.clear {
+  clear: both;
+}
+
+body {
+  font-family: var(--varelaround);
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.637);
+  z-index: 0;
+}
+
+.mg-x {
+  margin: 0 5%;
+}
+
+/* ~ 1.1 section padding */
+.pd-y {
+  padding: 150px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* 
+~ 3.
+*/
+/* 
+~ 3.0:
+~ 1.01 Conatiner
+*/
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.nav li a {
+  text-decoration: none;
+  list-style-type: none;
+  color: var(--white-color);
+}
+
+
+.nav {
+  padding: 20px 0px;
+}
+
+.nav-content {
+  font-size: 13px;
+  z-index: 999;
+}
+
+.nav > li > a::after {
+  content: "";
+  display: block;
+  background-color: var(--maincolor);
+  height: 2px;
+  width: 0%;
+  transition: width 0.2s ease 0s;
+}
+
+.nav > li > a:hover::after {
+  width: 100%;
+}
+
+.nav li {
+  list-style-type: none;
+  padding: 0 15px;
+}
+.nav > li {
+  list-style-type: none;
+  padding: 0 15px;
+  display: block;
+}
+
+.logo {
+  max-width: 16vh;
+}

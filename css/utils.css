@@ -1,0 +1,230 @@
+/*~ Margin */
+
+/** Margin bottom */
+.mg-b-20 {
+  margin-bottom: 20px;
+}
+
+.mg-b-60 {
+  margin-bottom: 60px;
+}
+
+.mg-b-15 {
+  margin-bottom: 15px;
+}
+
+.mg-b-8 {
+  margin-bottom: 8px;
+}
+
+.mg-b-10 {
+  margin-bottom: 10px;
+}
+
+.mg-b-40 {
+  margin-bottom: 40px;
+}
+
+/** Margin top */
+
+.mg-t-20 {
+  margin-top: 20px;
+}
+
+.mg-t-400 {
+  margin-top: 400px;
+}
+
+.mg-t-70 {
+  margin-top: 70px;
+}
+
+.mg-t-60 {
+  margin-top: 60px;
+}
+/** Margin left */
+.mg-l-5 {
+  margin-left: 5px;
+}
+
+/*~ Padding */
+.pd-20 {
+  padding: 20px;
+}
+
+.pd-7 {
+  padding: 7px;
+}
+
+/** padding-bottom */
+.pd-b-120 {
+  padding-bottom: 120px;
+}
+
+.pd-b-20 {
+  padding-bottom: 20px;
+}
+
+/*~ Width */
+.w-100-percent {
+  width: 100%;
+}
+
+.w-50-percent {
+  width: 50%;
+}
+
+.w-50 {
+  width: 50px;
+}
+
+.w-40 {
+  width: 40px;
+}
+
+.w-30 {
+  width: 30px;
+}
+
+.w-30-percent {
+  width: 30%;
+}
+
+.w-70-percent {
+  width: 70%;
+}
+
+.w-90-percent {
+  width: 90%;
+}
+
+.w-85-percent {
+  width: 85%;
+}
+
+.w-10 {
+  width: 10px;
+}
+
+.w-20 {
+  width: 20px;
+}
+
+.w-25-percent {
+  width: 25%;
+}
+
+.w-130 {
+  width: 130px;
+}
+
+/*~ Height */
+.h-50 {
+  height: 50px;
+}
+
+.h-100-percent {
+  height: 100%;
+}
+
+.h-50 {
+  height: 50px;
+}
+
+.h-30 {
+  height: 30px;
+}
+
+.h-300 {
+  height: 300px;
+}
+
+.h-400 {
+  height: 400px;
+}
+
+.h-130 {
+  height: 130px;
+}
+
+.h-10 {
+  height: 10px;
+}
+
+/*~ Line-Height */
+.lh-50 {
+  line-height: 50px;
+}
+
+.lh-one-six {
+  line-height: 1.6;
+}
+
+.lh-one-one {
+  line-height: 1.1;
+}
+
+.lh-two-two {
+  line-height: 2.2;
+}
+
+.lh-one-five {
+  line-height: 1.5;
+}
+
+.lh-one-seven {
+  line-height: 1.7;
+}
+
+/*~ Transition */
+.trans-ease {
+  transition: 0.2s ease 0s;
+}
+
+.trans-zero-two-ease-one {
+  transition: 0.2s ease 0.1s;
+}
+
+.trans-zero-two-ease {
+  transition: 0.2s;
+}
+
+.trans-zero-two-ease-two {
+  transition: 0.2s ease 0.2s;
+}
+
+.trans-zero-five-ease {
+  transition: 0.5s ease 0.1s;
+}
+
+/** trans top */
+.trans-top {
+  transition: top 0.2s;
+}
+
+/** trans color */
+.trans-color {
+  transition: color 0.2s ease 0s;
+}
+/** trans opacity  */
+.trans-opacity {
+  transition: opacity 0.2s;
+}
+
+/*~ Float */
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+/*~ position */
+.pos-absolute {
+  position: absolute;
+}
+
+.pos-relative {
+  position: relative;
+}

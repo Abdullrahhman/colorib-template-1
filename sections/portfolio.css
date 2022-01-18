@@ -1,0 +1,67 @@
+/* ~ 3.4 */
+.portfolio {
+  background-color: rgb(245, 245, 245);
+}
+
+.portfolio-content {
+  overflow: hidden;
+}
+
+.layer {
+  background-color: rgba(0, 0, 0, 0.6);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.layer .layer-content {
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  visibility: hidden;
+}
+
+.category {
+  margin: 0 0 5px;
+  color: var(--maincolor);
+  top: 20px;
+}
+
+.leyer-title {
+  margin: 0 0 10px;
+  color: var(--white-color);
+}
+
+.layer-icon {
+  color: var(--white-color);
+  background-color: var(--maincolor);
+  opacity: 0;
+}
+/* ~ 1.4 Delay opacity */
+.portfolio-item:hover .layer {
+  opacity: 1;
+}
+
+.portfolio-item:hover .layer-content {
+  opacity: 1;
+  visibility: visible;
+}
+
+.portfolio-item:hover .category {
+  top: 0;
+}
+.layer-content h3 {
+  top: 20px;
+  opacity: 0;
+}
+
+.portfolio-item:hover .layer-content h3 {
+  top: 0;
+  opacity: 1;
+}
+.portfolio-item:hover .layer-icon {
+  opacity: 1;
+}

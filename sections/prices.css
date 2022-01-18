@@ -1,0 +1,65 @@
+/* ~ 3.6 */
+pricing-content {
+  overflow: hidden;
+}
+
+.pricing-item {
+  padding: 20px 15px;
+  border: 1px solid #eee;
+  text-align: center;
+}
+
+.pricing-item:hover .ttp-hover {
+  height: 100%;
+}
+
+.pricing-item:hover .pricing-permonth {
+  color: var(--white-color);
+}
+
+.pricing-item:hover .pricing-title {
+  color: var(--maincolor);
+}
+
+.pricing-title {
+  font-size: 17px;
+  color: #999;
+}
+
+.pricing-permonth {
+  padding: 30px 0;
+  margin: 20px auto;
+  border: 2px solid var(--maincolor);
+  border-radius: 50%;
+}
+
+.pricing-permonth .dollar {
+  font-size: 42px;
+}
+
+.pricing-permonth .month {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.pricing-list {
+  list-style: none;
+}
+
+.pricing-list li {
+  color: #999;
+}
+
+.btn-purchase {
+  background: none;
+  display: inline-block;
+  border: 2px solid var(--maincolor);
+  left: 50%;
+  color: var(--maincolor);
+  padding: 10px 35px;
+  margin: 20px 0 0 0;
+  border-radius: 3px;
+  cursor: pointer;
+  text-align: center;
+}

@@ -1,0 +1,51 @@
+/*~ Team section part 2 */
+.team-pt2-content {
+  overflow: hidden;
+}
+
+.team-pt2-item {
+  background: var(--main-grey-color);
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.team-pt2-img {
+  margin: auto;
+}
+
+.team-pt2-title {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 21px;
+}
+
+.team-pt2-text {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.team-pt2-overlay {
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  height: 98.5%;
+}
+
+.team-pt2-overlay a {
+  right: 0;
+  display: block;
+  text-align: center;
+  background-color: var(--maincolor);
+  color: #fff;
+  margin-left: auto;
+}
+
+.team-pt2-item:hover .team-pt2-overlay {
+  visibility: visible;
+  opacity: 1;
+}
